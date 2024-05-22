@@ -1,6 +1,8 @@
 # BUILDING-A-DATABASE-MODEL-FOR-BOOKING-MANAGEMENT
 Use MySQL
+
 ● The appointment management system of a beauty center is intended to manage and store data and information related to service and appointment schedules to optimize the beauty center's operations. The system allows managers to capture all information of the center: Managers can track scheduling orders, customer information, employee information,... This helps managers to control revenue and appointment schedules. Besides, managers can monitor which services are popular and which services have few scheduled customers.
+
 ● Business description
   ○ For each customer (KHACHHANG), we will store the following information: unique customer code (MAKH), full name (HVT), date of birth (NGSINH), phone number (SDT), gender (GIOITINH), and email (EMAIL).
   ○ When scheduling beauty appointments, each customer will have a login account (LOGIN) for authentication. Each account will have a unique username (USERNAME), password (PASSWORD), and customer code (MAKH).
